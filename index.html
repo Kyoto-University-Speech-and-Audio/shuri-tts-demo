@@ -3,234 +3,63 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>沖縄語首里方言 合成音声サンプル</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<title>首里方言 合成音声サンプル</title>
 <style>
-  :root{
-    --bg:#f4f6f3;
-    --surface:#ffffff;
-    --ink:#22313a;
-    --muted:#5f6f78;
-    --faint:#8a98a0;
-    --line:#e3e7e1;
-    --real:#a23b2d;     /* 実音声 ― 紅型の赤 */
-    --tts:#2c4e72;      /* 合成音声 ― 藍 */
-    --radius:10px;
-    --maxw:880px;
-  }
-  *{box-sizing:border-box}
-  html{ -webkit-text-size-adjust:100% }
-  body{
-    margin:0;
-    background:var(--bg);
-    color:var(--ink);
-    font-family:"Noto Sans JP",system-ui,-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
-    line-height:1.7;
-    font-feature-settings:"palt" 1;
-  }
-  .wrap{ max-width:var(--maxw); margin:0 auto; padding:0 20px }
-
-  /* ---- header ---- */
-  header{
-    border-top:3px solid var(--real);
-    padding:48px 0 28px;
-  }
-  .eyebrow{
-    font-size:.72rem; letter-spacing:.18em; text-transform:uppercase;
-    color:var(--faint); margin:0 0 14px;
-  }
-  h1{
-    font-size:1.72rem; font-weight:700; line-height:1.4;
-    margin:0 0 6px; letter-spacing:.01em;
-  }
-  .h1-en{
-    font-family:"Charis SIL",serif;
-    font-size:1.02rem; font-style:italic; color:var(--muted);
-    margin:0 0 22px;
-  }
-  .lead{ font-size:.97rem; color:var(--muted); margin:0 0 22px; max-width:62ch }
-  .meta{
-    font-size:.84rem; color:var(--muted);
-    border-top:1px solid var(--line); padding-top:16px; margin-top:4px;
-  }
-  .meta b{ color:var(--ink); font-weight:500 }
-
-  /* ---- legend ---- */
-  .legend{
-    display:flex; flex-wrap:wrap; gap:18px;
-    margin:26px 0 8px; font-size:.86rem;
-  }
-  .legend .item{ display:flex; align-items:center; gap:8px }
-  .swatch{ width:11px; height:11px; border-radius:50%; flex:none }
-  .swatch.real{ background:var(--real) }
-  .swatch.tts{ background:var(--tts) }
-  .legend .item span{ color:var(--muted) }
-
-  /* ---- status / count ---- */
-  #status{
-    margin:22px 0; padding:16px 18px; border-radius:var(--radius);
-    background:var(--surface); border:1px solid var(--line);
-    color:var(--muted); font-size:.9rem;
-  }
-  #status.error{ border-color:var(--real); color:var(--real) }
-  .count{ font-size:.82rem; color:var(--faint); margin:30px 0 14px }
-
-  /* ---- sample card ---- */
-  .card{
-    background:var(--surface);
-    border:1px solid var(--line);
-    border-radius:var(--radius);
-    padding:20px 22px;
-    margin:0 0 14px;
-  }
-  .card-top{ display:flex; align-items:baseline; gap:12px; margin-bottom:10px }
-  .no{
-    font-family:"Charis SIL",serif;
-    font-size:.95rem; font-weight:700; color:var(--real);
-    flex:none; min-width:2.4em;
-  }
-  .fileid{
-    font-family:"Charis SIL",serif; font-size:.72rem;
-    color:var(--faint); word-break:break-all; align-self:center;
-  }
-  .ipa{
-    font-family:"Charis SIL","Gentium Plus",serif;
-    font-size:1.34rem; line-height:1.5; color:var(--ink);
-    margin:2px 0 18px; word-break:break-word;
-  }
-  .players{ display:grid; grid-template-columns:1fr 1fr; gap:14px }
-  @media (max-width:560px){ .players{ grid-template-columns:1fr } }
-  .player .tag{
-    display:inline-block; font-size:.78rem; font-weight:500;
-    letter-spacing:.04em; margin:0 0 7px;
-  }
-  .player.real .tag{ color:var(--real) }
-  .player.tts .tag{ color:var(--tts) }
-  audio{ width:100%; height:38px }
-
-  footer{
-    border-top:1px solid var(--line);
-    margin-top:46px; padding:24px 0 60px;
-    font-size:.82rem; color:var(--muted);
-  }
-  footer p{ margin:.4em 0 }
-  a{ color:var(--tts) }
-
-  :focus-visible{ outline:2px solid var(--tts); outline-offset:2px }
-  @media (prefers-reduced-motion:reduce){ *{ scroll-behavior:auto } }
+  body{ font-family: sans-serif; margin: 20px; line-height: 1.6; color:#222; }
+  h2{ margin-bottom: 4px; }
+  p{ font-size: 0.95em; }
+  table{ border-collapse: collapse; margin-top: 16px; }
+  th, td{ border: 1px solid #ccc; padding: 6px 10px; text-align: left; vertical-align: middle; }
+  th{ background: #f2f2f2; }
+  .ipa{ font-size: 1.05em; }
+  .id{ color:#888; font-size: 0.8em; }
+  audio{ height: 32px; }
+  #msg{ color:#a00; }
 </style>
 </head>
 <body>
-<div class="wrap">
 
-  <header>
-    <p class="eyebrow">Supplementary audio samples</p>
-    <h1>事前学習モデルを用いた<br>沖縄語首里方言の音声認識と音声合成</h1>
-    <p class="h1-en">Automatic Speech Recognition and Synthesis for the Shuri Dialect Using Pretrained Models</p>
-    <p class="lead">
-      日本音響学会誌 投稿論文の補足資料です。日本語音声で事前学習した VITS モデルを首里方言音声で
-      ファインチューニングして得た合成音声（合成音声）と、対応する実際の発話（実音声）を並べて掲載しています。
-      自然性・明瞭性、および首里方言としての発音の再現について、聴き比べてご確認いただけます。
-    </p>
-    <p class="meta">著者：松浦 孝平・河原 達也（京都大学）&nbsp;／&nbsp;<b>発音表記</b>：共通音韻表記（IPA に基づく）</p>
-  </header>
+<h2>首里方言 合成音声サンプル</h2>
+<p>「事前学習モデルを用いた沖縄語首里方言の音声認識と音声合成」の補足資料です。<br>
+実音声（母語話者の発話）と、提案手法による合成音声を掲載しています。発音は共通音韻表記（IPA）です。</p>
 
-  <div class="legend">
-    <div class="item"><span class="swatch real"></span><span><b style="color:var(--real)">実音声</b>　母語話者による実際の発話</span></div>
-    <div class="item"><span class="swatch tts"></span><span><b style="color:var(--tts)">合成音声</b>　提案手法（日本語事前学習 VITS）による合成</span></div>
-  </div>
+<p id="msg">読み込み中…</p>
 
-  <div id="status">サンプルを読み込んでいます…</div>
-  <div class="count" id="count" hidden></div>
-  <div id="list"></div>
-
-  <footer>
-    <p>各サンプルの発音は『大琉球語辞典』『しまくとぅばアーカイブ』に基づく共通音韻表記です。</p>
-    <p>音声は研究目的の補足資料として提供しています。</p>
-  </footer>
-
-</div>
+<table id="tbl" style="display:none">
+  <thead>
+    <tr><th>No.</th><th>発音</th><th>実音声</th><th>合成音声</th></tr>
+  </thead>
+  <tbody id="rows"></tbody>
+</table>
 
 <script>
-(function(){
-  var statusEl = document.getElementById('status');
-  var listEl   = document.getElementById('list');
-  var countEl  = document.getElementById('count');
-
-  function pad(n){ return (n<10 ? '0' : '') + n; }
-
-  function makeCard(index, id, text){
-    var card = document.createElement('div');
-    card.className = 'card';
-
-    var top = document.createElement('div');
-    top.className = 'card-top';
-    var no = document.createElement('span'); no.className='no'; no.textContent = 'No.' + pad(index);
-    var fid = document.createElement('span'); fid.className='fileid'; fid.textContent = id;
-    top.appendChild(no); top.appendChild(fid);
-
-    var ipa = document.createElement('div');
-    ipa.className = 'ipa';
-    ipa.textContent = text || '(書き起こしなし)';
-
-    var players = document.createElement('div');
-    players.className = 'players';
-    players.appendChild(makePlayer('real', '実音声', 'real/' + id + '.wav'));
-    players.appendChild(makePlayer('tts',  '合成音声', 'tts/'  + id + '.wav'));
-
-    card.appendChild(top);
-    card.appendChild(ipa);
-    card.appendChild(players);
-    return card;
-  }
-
-  function makePlayer(kind, label, src){
-    var wrap = document.createElement('div');
-    wrap.className = 'player ' + kind;
-    var tag = document.createElement('span'); tag.className='tag'; tag.textContent = label;
-    var audio = document.createElement('audio');
-    audio.controls = true; audio.preload = 'none'; audio.src = src;
-    wrap.appendChild(tag); wrap.appendChild(audio);
-    return wrap;
-  }
-
-  fetch('transcription.txt', {cache:'no-store'})
-    .then(function(r){
-      if(!r.ok) throw new Error('transcription.txt が見つかりません (' + r.status + ')');
-      return r.text();
-    })
-    .then(function(txt){
-      var lines = txt.split(/\r?\n/);
-      var items = [];
-      for(var i=0;i<lines.length;i++){
-        var m = lines[i].match(/^\s*(\S+)\s+([\s\S]+?)\s*$/);
-        if(m){ items.push({id:m[1], text:m[2]}); }
-        else {
-          var only = lines[i].trim();
-          if(only){ items.push({id:only, text:''}); }
-        }
-      }
-      if(items.length === 0){ throw new Error('読み込める行がありませんでした'); }
-
-      var frag = document.createDocumentFragment();
-      for(var j=0;j<items.length;j++){
-        frag.appendChild(makeCard(j+1, items[j].id, items[j].text));
-      }
-      listEl.appendChild(frag);
-
-      statusEl.hidden = true;
-      countEl.hidden = false;
-      countEl.textContent = '全 ' + items.length + ' サンプル（実音声・合成音声の対）';
-    })
-    .catch(function(err){
-      statusEl.className = 'error';
-      statusEl.innerHTML = '読み込めませんでした：' + err.message +
-        '<br>このページは公開された GitHub Pages の URL（https://….github.io/shuri-tts-demo/）で開いてください。' +
-        'パソコン上のファイルを直接ダブルクリックして開くと、音声と書き起こしは表示されません。';
-    });
-})();
+fetch('transcription.txt', {cache:'no-store'})
+  .then(function(r){ if(!r.ok) throw new Error(r.status); return r.text(); })
+  .then(function(txt){
+    var lines = txt.split(/\r?\n/);
+    var rows = document.getElementById('rows');
+    var n = 0;
+    for(var i=0;i<lines.length;i++){
+      var m = lines[i].match(/^\s*(\S+)\s+(.+?)\s*$/);
+      if(!m) continue;
+      n++;
+      var id = m[1], text = m[2];
+      var tr = document.createElement('tr');
+      tr.innerHTML =
+        '<td>' + n + '</td>' +
+        '<td class="ipa">' + text + '<br><span class="id">' + id + '</span></td>' +
+        '<td><audio controls preload="none" src="real/' + id + '.wav"></audio></td>' +
+        '<td><audio controls preload="none" src="tts/'  + id + '.wav"></audio></td>';
+      rows.appendChild(tr);
+    }
+    document.getElementById('msg').style.display = 'none';
+    document.getElementById('tbl').style.display = '';
+  })
+  .catch(function(e){
+    document.getElementById('msg').textContent =
+      'サンプルを読み込めませんでした。公開された GitHub Pages の URL で開いてください（ファイルを直接開くと表示されません）。';
+  });
 </script>
+
 </body>
 </html>
