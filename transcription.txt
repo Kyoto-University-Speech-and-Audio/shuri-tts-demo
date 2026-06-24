@@ -1,50 +1,10 @@
-SNH_273856_SNH0103069_s1_2 hananu katamajuN
-SNH_273864_SNH0102090_s1_2 ʧiːnu gaʤirijuN
-SNH_273878_SNH0102054_s2_2 kaʤiɸuʧiaːkeːʤuːnu buNnai uhwoːku tubiːneː ʧimusawaʤi suNneː suQsaː
 SNH_273883_SNH0050086_s2_2 'uduiʤiN ʧiʧi haʤimiti 'udujuN
 SNH_273889_SNH0050061_s2_2 ʃikiN sawagasuru ɲiːseːtaːja ujanu 'usamiteː neːraN ʧineːkara NʤitoːN
-SNH_273909_SNH0101052_s1_2 kaNmui kakijuN
-SNH_273909_SNH0101052_s8_2 hjaQkwaN kakijuN
-SNH_273915_SNH0101030_s3_2 ’juːakiduːʃiː Qʃi kakiaːʧasa
 SNH_273959_SNH0060042_s4_2 ʃiwa kwiːʤikiːneː ʧiːN eːraNnatoːsa
-SNH_273960_SNH0060026_s2_2 uːbugwaː eːʧakutu naː jamaNnatoːN
 SNH_273963_SNH0050049_s1_2 ʧuːja 'iː uhwanaʃi 'uganabitaN
-SNH_273964_SNH0050051_s1_2 ʧuː 'uganabira
 SNH_273968_SNH0050040_s4_2 miːkuɲi Nʤihaʤimitoːru hananu juda 'uːtineːNsa
-SNH_273971_SNH0050028_s1_2 mibuNɲi 'uːʤiti seː
-SNH_273973_SNH0050011_s1_2 wata 'uːiNʧuN
 SNH_273973_SNH0050011_s2_2 taːriːja juːbaN usagati atu wata uːiNʧaganaː tabaku koːiga meNsjeːtaN
-SNH_273990_SNH0041000_s4_2 tabaku urusuN
 SNH_274095_SNH0035047_s2_2 aQtaNɲi uʧakunu meNsoːʧakutu 'iːhanaʃisoːtarumuNnu uQʧiguti neːraNsa
 SNH_274117_SNH0032041_s2_2 awatiti ɸukurukara kumi uʃiNʤasuNdi uhwoːku hoːtineːNsa
-SNH_274130_SNH0035004_s1_2 miːnu 'utati noːimuN uʧuN
 SNH_274132_SNH0035006_s2_2 uɲibiʧisaʃinoː aNʃi juː uʧitoːru
 SNH_274186_SNH0020037_s1_2 aʧaː tabidaʧisuNdiʧi 'iːʧibiNʧikaNsa
-SNH_274193_SNH0031074_s2_2 muʧieːnu uguritoːNneː soːkutu joːʤiN soːN
-SNH_274223_SNH0030091_s2_2 ubukoː ʧuraːku ukagiti usagirijoːjaː
-SNH_274225_SNH0031002_s1_2 utiti ʧaːkinu hana miʤinakai ukabiti ukibana nasuN
-SNH_274239_SNH0021013_s6_2 uNʤoː kumaNkai 'imiseːbireː
-SNH_274250_SNH0015088_s1_2 gumaːtaːj ɸuʧukurunakai iruirunamuN iQti ʧuːN
-SNH_274276_SNH0015022_s4_2 taːʧi koːtiʧeːʃiga ijuraː muQʧiiʧumi
-SNH_274279_SNH0014090_s2_2 ikudu imitiN keːsuru joːseːneːNQʧudu jasa
-SNH_274308_SNH0012065_s2_2 kurumasaːɲi iʧiʃiʤiti duʃinu jaːja wakaraNnatoːN
-SNH_274309_SNH0012073_s2_2 duːtu 'inutuʃidujaʃiga çira nubuineː iʧiʤirasaNdi ˀjuNdeː
-SNH_274315_SNH0012029_s2_2 itadoːgajaː ajaː usagati'NNdiNdi iNdeː çirumaʃiːmuN
-SNH_274349_SNH0010093_s2_2 gumaːtaːja ʤiNbuN Nʤireːkaraː ujaN iːmaːrasuN
-SNH_274354_SNH0010082_s1_2 iːbuːsaːɲi tamaN ʧijuN
-SNH_274371_SNH0010023_s2_2 aʃitibiʧinu judiʤiru iːkeːrasuN
-SNH_274386_SNH0008026_s3_2 hadanu arijuN
-SNH_274401_SNH0007069_s1_2 arageːtoːru maːminaː maːkoː neːN
-SNH_274409_SNH0007007_s1_2 warabi amirasuN
-SNH_274418_SNH0006077_s3_2 kumaː jamiQʧunu meNseːkutu kumaNʤeː amaNnajoː
-SNH_274428_SNH0006014_s1_2 muʧi abujuN
-SNH_274439_SNH0006005_s1_2 ʃugunu waQsaineː ahweːjuNdoː
-SNH_274450_SNH0005082_s1_2 ʧukutuba Qʃi ʧikaNdaraː abiːudurukaseː
-SNH_274456_SNH0005006_s3_2 ari atiti kuːwa
-SNH_274458_SNH0004098_s1_2 kuNdunu jureːja taruːNkai karaʧeːʃisaːɲi atiːNʧi jataʃiga kunu munNnu muʧeːkuːNtakutu atikawatoːN
-SNH_274460_SNH0004083_s2_2 Nmaga tiː çiʧi aQkasuN
-SNH_274476_SNH0004004_s3_2 aʧiʤaranoː aʃiga matajaː
-SNH_274477_SNH0003078_s2_2 ʧimunu atajuN
-SNH_274489_SNH0003046_s1_2 Qʧu aʤamuʧuN
-SNH_274494_SNH0002091_s1_2 taruːNkai jureːʤiN aʤikijuN
-SNH_274516_SNH0002008_s4_2 deː agijuN
